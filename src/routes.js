@@ -21,4 +21,7 @@ module.exports = (router) => {
     router
         .post('/api/register', AccountsController.Register)
         .post('/api/login', AccountsController.Login)
+        .get("/", (req, res) => {
+            res.send("Hello user.")
+        })
 }
