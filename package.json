@@ -1,6 +1,9 @@
 {
   "name": "dencom",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.8.0"
+  },
   "description": "dencom exam",
   "main": "app.js",
   "scripts": {
